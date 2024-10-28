@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/gsi/blockIO.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gsi"
+		],
+		"name" : "gsi_c_obj"
+	}
+}

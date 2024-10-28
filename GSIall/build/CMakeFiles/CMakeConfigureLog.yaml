@@ -1,0 +1,1464 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 4.18.0-553.5.1.el8_10.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /global/home/users/tinakc/GSIall/build/CMakeFiles/3.26.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:179 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+      Compiler: /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort 
+      Build flags: 
+      Id flags: -v 
+      
+      The output was:
+      0
+      Driving: /usr/bin/gfortran -v CMakeFortranCompilerId.F -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -pthread -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -Wl,-rpath -Wl,/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+      Using built-in specs.
+      COLLECT_GCC=/usr/bin/gfortran
+      COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+      OFFLOAD_TARGET_NAMES=nvptx-none
+      OFFLOAD_TARGET_DEFAULT=1
+      Target: x86_64-redhat-linux
+      Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+      Thread model: posix
+      gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+      COLLECT_GCC_OPTIONS='-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+       /usr/libexec/gcc/x86_64-redhat-linux/8/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccPHbhQF.f90 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -D_REENTRANT CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/8/finclude -o /tmp/ccSG3oAE.s
+      GNU Fortran (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+      	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+      
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"
+      ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+      #include "..." search starts here:
+      #include <...> search starts here:
+       /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include
+       /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib
+       /usr/lib/gcc/x86_64-redhat-linux/8/finclude
+       /usr/lib/gcc/x86_64-redhat-linux/8/include
+       /usr/local/include
+       /usr/include
+      End of search list.
+      GNU Fortran2008 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+      	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+      
+      GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+      COLLECT_GCC_OPTIONS='-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+       as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib --64 -o /tmp/ccHsvVYO.o /tmp/ccSG3oAE.s
+      GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8
+      Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgfortran.spec
+      rename spec lib to liborig
+      COLLECT_GCC_OPTIONS='-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+      COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+      LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+      COLLECT_GCC_OPTIONS='-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+       /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEO0yCK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. /tmp/ccHsvVYO.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+      COLLECT_GCC_OPTIONS='-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+      
+      
+      Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+      
+      The Fortran compiler identification is GNU, found in:
+        /global/home/users/tinakc/GSIall/build/CMakeFiles/3.26.5/CompilerIdFortran/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-QLXftq"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-QLXftq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-QLXftq
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dd36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9dd36.dir/build.make CMakeFiles/cmTC_9dd36.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-QLXftq'
+        Building C object CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc   -v -o CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -D_REENTRANT /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccv7ldMm.s
+        GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include
+         /usr/lib/gcc/x86_64-redhat-linux/8/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 85719aad64c5394c9231649189a70b44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64'
+         as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include --64 -o CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o /tmp/ccv7ldMm.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_9dd36
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dd36.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc  -v CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -o cmTC_9dd36 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dd36' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccprticx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9dd36 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dd36' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-QLXftq'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/8/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/8/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/8/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include;/usr/lib/gcc/x86_64-redhat-linux/8/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-QLXftq]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dd36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9dd36.dir/build.make CMakeFiles/cmTC_9dd36.dir/build]
+        ignore line: [gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-QLXftq']
+        ignore line: [Building C object CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc   -v -o CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -D_REENTRANT /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccv7ldMm.s]
+        ignore line: [GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 85719aad64c5394c9231649189a70b44]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include --64 -o CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o /tmp/ccv7ldMm.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_9dd36]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dd36.dir/link.txt --verbose=1]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc  -v CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -o cmTC_9dd36 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dd36' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccprticx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9dd36 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccprticx.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9dd36] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+          arg [-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
+          arg [CMakeFiles/cmTC_9dd36.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> ignore
+          arg [-lmpi] ==> lib [mpi]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> [/usr/lib]
+        implicit libs: [mpi;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib;/usr/lib/gcc/x86_64-redhat-linux/8;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting Fortran compiler ABI info"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-eC0qwR"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-eC0qwR"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "CMAKE_Fortran_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-eC0qwR
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ca6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ca6f.dir/build.make CMakeFiles/cmTC_7ca6f.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-eC0qwR'
+        Building Fortran object CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort   -v -c /usr/share/cmake/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gfortran
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/f951 /usr/share/cmake/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccurmGXd.f90 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -D_REENTRANT /usr/share/cmake/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/8/finclude -o /tmp/cc0sduxn.s
+        GNU Fortran (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib
+         /usr/lib/gcc/x86_64-redhat-linux/8/finclude
+         /usr/lib/gcc/x86_64-redhat-linux/8/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU Fortran2008 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64'
+         as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib --64 -o CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o /tmp/cc0sduxn.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64'
+        Linking Fortran executable cmTC_7ca6f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ca6f.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort  -v CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_7ca6f 
+        Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_7ca6f -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -pthread -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -Wl,-rpath -Wl,/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gfortran
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ca6f' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ca6f' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHmYGRD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7ca6f /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ca6f' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-eC0qwR'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed Fortran implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+          add: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/8/finclude]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/8/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+        collapse include dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/8/finclude] ==> [/usr/lib/gcc/x86_64-redhat-linux/8/finclude]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/8/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/8/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include;/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib;/usr/lib/gcc/x86_64-redhat-linux/8/finclude;/usr/lib/gcc/x86_64-redhat-linux/8/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestFortranCompiler.cmake:20 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed Fortran implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-eC0qwR]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ca6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ca6f.dir/build.make CMakeFiles/cmTC_7ca6f.dir/build]
+        ignore line: [gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-eC0qwR']
+        ignore line: [Building Fortran object CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort   -v -c /usr/share/cmake/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/f951 /usr/share/cmake/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccurmGXd.f90 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -D_REENTRANT /usr/share/cmake/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/8/finclude -o /tmp/cc0sduxn.s]
+        ignore line: [GNU Fortran (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/finclude]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU Fortran2008 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib --64 -o CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o /tmp/cc0sduxn.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking Fortran executable cmTC_7ca6f]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ca6f.dir/link.txt --verbose=1]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort  -v CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_7ca6f ]
+        ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -o cmTC_7ca6f -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -pthread -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -Wl -rpath -Wl /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ca6f' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7ca6f' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHmYGRD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7ca6f /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccHmYGRD.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7ca6f] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+          arg [-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
+          arg [CMakeFiles/cmTC_7ca6f.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> ignore
+          arg [-lmpi_usempif08] ==> lib [mpi_usempif08]
+          arg [-lmpi_usempi_ignore_tkr] ==> lib [mpi_usempi_ignore_tkr]
+          arg [-lmpi_mpifh] ==> lib [mpi_mpifh]
+          arg [-lmpi] ==> lib [mpi]
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> [/usr/lib]
+        implicit libs: [mpi_usempif08;mpi_usempi_ignore_tkr;mpi_mpifh;mpi;gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib;/usr/lib/gcc/x86_64-redhat-linux/8;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFortranFunctionExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:365 (check_fortran_function_exists)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:411 (check_blas_libraries)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "src/gsi/CMakeLists.txt:59 (find_package)"
+    checks:
+      - "Looking for Fortran sgemm"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-h79xJA"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-h79xJA"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-h79xJA
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47a96/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47a96.dir/build.make CMakeFiles/cmTC_47a96.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-h79xJA'
+        Building Fortran object CMakeFiles/cmTC_47a96.dir/testFortranCompiler.f.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort    -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-h79xJA/testFortranCompiler.f -o CMakeFiles/cmTC_47a96.dir/testFortranCompiler.f.o
+        Linking Fortran executable cmTC_47a96
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47a96.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort CMakeFiles/cmTC_47a96.dir/testFortranCompiler.f.o -o cmTC_47a96 
+        CMakeFiles/cmTC_47a96.dir/testFortranCompiler.f.o: In function `MAIN__':
+        testFortranCompiler.f:(.text+0xa): undefined reference to `sgemm_'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_47a96.dir/build.make:99: cmTC_47a96] Error 1
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-h79xJA'
+        gmake: *** [Makefile:127: cmTC_47a96/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:465 (find_package)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "src/gsi/CMakeLists.txt:59 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-mVxyPm"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-mVxyPm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-mVxyPm
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed48d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed48d.dir/build.make CMakeFiles/cmTC_ed48d.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-mVxyPm'
+        Building C object CMakeFiles/cmTC_ed48d.dir/src.c.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ed48d.dir/src.c.o -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-mVxyPm/src.c
+        Linking C executable cmTC_ed48d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed48d.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc CMakeFiles/cmTC_ed48d.dir/src.c.o -o cmTC_ed48d 
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-mVxyPm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFortranFunctionExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:365 (check_fortran_function_exists)"
+      - "/usr/share/cmake/Modules/FindBLAS.cmake:748 (check_blas_libraries)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "src/gsi/CMakeLists.txt:59 (find_package)"
+    checks:
+      - "Looking for Fortran sgemm"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-YJHYx1"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-YJHYx1"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "BLAS_openblas_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-YJHYx1
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d04b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d04b0.dir/build.make CMakeFiles/cmTC_d04b0.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-YJHYx1'
+        Building Fortran object CMakeFiles/cmTC_d04b0.dir/testFortranCompiler.f.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort    -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-YJHYx1/testFortranCompiler.f -o CMakeFiles/cmTC_d04b0.dir/testFortranCompiler.f.o
+        Linking Fortran executable cmTC_d04b0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d04b0.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort CMakeFiles/cmTC_d04b0.dir/testFortranCompiler.f.o -o cmTC_d04b0  -Wl,-rpath,/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openblas-0.3.27-ofiukddklhl4v4btr4bszp4f66pzir23/lib /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openblas-0.3.27-ofiukddklhl4v4btr4bszp4f66pzir23/lib/libopenblas.so 
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-YJHYx1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFortranFunctionExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:218 (check_fortran_function_exists)"
+      - "/usr/share/cmake/Modules/FindLAPACK.cmake:395 (check_lapack_libraries)"
+      - "src/gsi/CMakeLists.txt:59 (find_package)"
+    checks:
+      - "Looking for Fortran cheev"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-EvjlwR"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-EvjlwR"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-EvjlwR
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_849e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_849e3.dir/build.make CMakeFiles/cmTC_849e3.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-EvjlwR'
+        Building Fortran object CMakeFiles/cmTC_849e3.dir/testFortranCompiler.f.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort    -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-EvjlwR/testFortranCompiler.f -o CMakeFiles/cmTC_849e3.dir/testFortranCompiler.f.o
+        Linking Fortran executable cmTC_849e3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_849e3.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort CMakeFiles/cmTC_849e3.dir/testFortranCompiler.f.o -o cmTC_849e3  -Wl,-rpath,/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openblas-0.3.27-ofiukddklhl4v4btr4bszp4f66pzir23/lib /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openblas-0.3.27-ofiukddklhl4v4btr4bszp4f66pzir23/lib/libopenblas.so -lm -ldl 
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-EvjlwR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1707 (_MPI_try_staged_settings)"
+      - "src/gsi/CMakeLists.txt:61 (find_package)"
+    description: "The MPI test mpiver for Fortran in mode F08_MODULE"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-CZzXhA"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-CZzXhA"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_mpiver_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-CZzXhA
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3a3d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a3d4.dir/build.make CMakeFiles/cmTC_3a3d4.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-CZzXhA'
+        Building Fortran object CMakeFiles/cmTC_3a3d4.dir/mpiver.f90.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort    -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-CZzXhA/mpiver.f90 -o CMakeFiles/cmTC_3a3d4.dir/mpiver.f90.o
+        Linking Fortran executable cmTC_3a3d4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a3d4.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort CMakeFiles/cmTC_3a3d4.dir/mpiver.f90.o -o cmTC_3a3d4 
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-CZzXhA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/ip-3.3.3-zqcosc4kucplgd7c2lqhyq3pkbtkttzl/lib/cmake/ip/ip-config.cmake:37 (find_dependency)"
+      - "src/gsi/CMakeLists.txt:78 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d79e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d79e2.dir/build.make CMakeFiles/cmTC_d79e2.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8'
+        Building C object CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc   -fopenmp -v -o CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8/OpenMPTryFlag.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -D_REENTRANT /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccUyp4tQ.s
+        GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include
+         /usr/lib/gcc/x86_64-redhat-linux/8/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 85719aad64c5394c9231649189a70b44
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64' '-pthread'
+         as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include --64 -o CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o /tmp/ccUyp4tQ.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64' '-pthread'
+        Linking C executable cmTC_d79e2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d79e2.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc  -fopenmp -v CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -o cmTC_d79e2  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_d79e2' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP1Pldn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d79e2 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_d79e2' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:262 (message)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/ip-3.3.3-zqcosc4kucplgd7c2lqhyq3pkbtkttzl/lib/cmake/ip/ip-config.cmake:37 (find_dependency)"
+      - "src/gsi/CMakeLists.txt:78 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d79e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d79e2.dir/build.make CMakeFiles/cmTC_d79e2.dir/build]
+        ignore line: [gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8']
+        ignore line: [Building C object CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc   -fopenmp -v -o CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8/OpenMPTryFlag.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -D_REENTRANT /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-5v0Qd8/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -version -fopenmp -o /tmp/ccUyp4tQ.s]
+        ignore line: [GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 85719aad64c5394c9231649189a70b44]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include --64 -o CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o /tmp/ccUyp4tQ.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o' '-c' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [Linking C executable cmTC_d79e2]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d79e2.dir/link.txt --verbose=1]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpicc  -fopenmp -v CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -o cmTC_d79e2  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_d79e2' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP1Pldn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d79e2 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadend.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccP1Pldn.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d79e2] ==> ignore
+          arg [-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
+          arg [CMakeFiles/cmTC_d79e2.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> ignore
+          arg [-lmpi] ==> lib [mpi]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+        collapse library dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> [/usr/lib]
+        implicit libs: [mpi;gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib;/usr/lib/gcc/x86_64-redhat-linux/8;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:502 (_OPENMP_GET_FLAGS)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/ip-3.3.3-zqcosc4kucplgd7c2lqhyq3pkbtkttzl/lib/cmake/ip/ip-config.cmake:37 (find_dependency)"
+      - "src/gsi/CMakeLists.txt:78 (find_package)"
+    description: "Detecting Fortran OpenMP compiler info"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_FortranHeader_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0b03e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b03e.dir/build.make CMakeFiles/cmTC_0b03e.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM'
+        Building Fortran object CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort   -fopenmp -v -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM/OpenMPTryFlag.F90 -o CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gfortran
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/f951 /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM/OpenMPTryFlag.F90 -cpp=/tmp/cclXAQ9k.f90 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -D_REENTRANT /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM/OpenMPTryFlag.F90 -quiet -dumpbase OpenMPTryFlag.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -version -fopenmp -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/8/finclude -o /tmp/ccTXYaij.s
+        GNU Fortran (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib
+         /usr/lib/gcc/x86_64-redhat-linux/8/finclude
+         /usr/lib/gcc/x86_64-redhat-linux/8/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU Fortran2008 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+         as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib --64 -o CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o /tmp/ccTXYaij.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+        Linking Fortran executable cmTC_0b03e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b03e.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort  -fopenmp -v CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -o cmTC_0b03e  -v 
+        Driving: /usr/bin/gfortran -fopenmp -v CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -o cmTC_0b03e -v -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -pthread -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -Wl,-rpath -Wl,/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gfortran
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0b03e' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0b03e' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4x8W1W.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b03e /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0b03e' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:262 (message)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:502 (_OPENMP_GET_FLAGS)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/ip-3.3.3-zqcosc4kucplgd7c2lqhyq3pkbtkttzl/lib/cmake/ip/ip-config.cmake:37 (find_dependency)"
+      - "src/gsi/CMakeLists.txt:78 (find_package)"
+    message: |
+      Parsed Fortran OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0b03e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b03e.dir/build.make CMakeFiles/cmTC_0b03e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM']
+        ignore line: [Building Fortran object CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort   -fopenmp -v -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM/OpenMPTryFlag.F90 -o CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/f951 /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM/OpenMPTryFlag.F90 -cpp=/tmp/cclXAQ9k.f90 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -D_REENTRANT /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-apDRiM/OpenMPTryFlag.F90 -quiet -dumpbase OpenMPTryFlag.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -version -fopenmp -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/8/finclude -o /tmp/ccTXYaij.s]
+        ignore line: [GNU Fortran (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/finclude]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU Fortran2008 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib --64 -o CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o /tmp/ccTXYaij.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [Linking Fortran executable cmTC_0b03e]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b03e.dir/link.txt --verbose=1]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort  -fopenmp -v CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -o cmTC_0b03e  -v ]
+        ignore line: [Driving: /usr/bin/gfortran -fopenmp -v CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -o cmTC_0b03e -v -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -pthread -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -Wl -rpath -Wl /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0b03e' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0b03e' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4x8W1W.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b03e /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadend.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc4x8W1W.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0b03e] ==> ignore
+          arg [-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
+          arg [CMakeFiles/cmTC_0b03e.dir/OpenMPTryFlag.F90.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> ignore
+          arg [-lmpi_usempif08] ==> lib [mpi_usempif08]
+          arg [-lmpi_usempi_ignore_tkr] ==> lib [mpi_usempi_ignore_tkr]
+          arg [-lmpi_mpifh] ==> lib [mpi_mpifh]
+          arg [-lmpi] ==> lib [mpi]
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> [/usr/lib]
+        implicit libs: [mpi_usempif08;mpi_usempi_ignore_tkr;mpi_mpifh;mpi;gfortran;m;gomp;gcc_s;gcc;quadmath;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib;/usr/lib/gcc/x86_64-redhat-linux/8;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/ip-3.3.3-zqcosc4kucplgd7c2lqhyq3pkbtkttzl/lib/cmake/ip/ip-config.cmake:37 (find_dependency)"
+      - "src/gsi/CMakeLists.txt:78 (find_package)"
+    description: "Detecting Fortran OpenMP compiler info"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_FortranModule_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8116c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8116c.dir/build.make CMakeFiles/cmTC_8116c.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw'
+        Building Fortran object CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort   -fopenmp -v -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw/OpenMPTryFlag.F90 -o CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gfortran
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/f951 /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw/OpenMPTryFlag.F90 -cpp=/tmp/ccGXv59p.f90 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -D_REENTRANT /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw/OpenMPTryFlag.F90 -quiet -dumpbase OpenMPTryFlag.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -version -fopenmp -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/8/finclude -o /tmp/cc6Scit7.s
+        GNU Fortran (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include
+         /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib
+         /usr/lib/gcc/x86_64-redhat-linux/8/finclude
+         /usr/lib/gcc/x86_64-redhat-linux/8/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        GNU Fortran2008 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)
+        	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+         as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib --64 -o CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o /tmp/cc6Scit7.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread'
+        Linking Fortran executable cmTC_8116c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8116c.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort  -fopenmp -v CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -o cmTC_8116c  -v 
+        Driving: /usr/bin/gfortran -fopenmp -v CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -o cmTC_8116c -v -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -pthread -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -Wl,-rpath -Wl,/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gfortran
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+        Thread model: posix
+        gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) 
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgfortran.spec
+        rename spec lib to liborig
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8116c' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8116c' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc91pXOG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8116c /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8116c' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:262 (message)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:522 (_OPENMP_GET_FLAGS)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/ip-3.3.3-zqcosc4kucplgd7c2lqhyq3pkbtkttzl/lib/cmake/ip/ip-config.cmake:37 (find_dependency)"
+      - "src/gsi/CMakeLists.txt:78 (find_package)"
+    message: |
+      Parsed Fortran OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8116c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8116c.dir/build.make CMakeFiles/cmTC_8116c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw']
+        ignore line: [Building Fortran object CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort   -fopenmp -v -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw/OpenMPTryFlag.F90 -o CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/f951 /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw/OpenMPTryFlag.F90 -cpp=/tmp/ccGXv59p.f90 -quiet -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -D_REENTRANT /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-ja5ZKw/OpenMPTryFlag.F90 -quiet -dumpbase OpenMPTryFlag.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -version -fopenmp -fintrinsic-modules-path /usr/lib/gcc/x86_64-redhat-linux/8/finclude -o /tmp/cc6Scit7.s]
+        ignore line: [GNU Fortran (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include]
+        ignore line: [ /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/finclude]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/8/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU Fortran2008 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-22) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-22)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [ as -v -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -I /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib --64 -o CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o /tmp/cc6Scit7.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-123.el8]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-c' '-o' 'CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [Linking Fortran executable cmTC_8116c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8116c.dir/link.txt --verbose=1]
+        ignore line: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort  -fopenmp -v CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -o cmTC_8116c  -v ]
+        ignore line: [Driving: /usr/bin/gfortran -fopenmp -v CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -o cmTC_8116c -v -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include -pthread -I/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -Wl -rpath -Wl /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -l gfortran -l m -shared-libgcc]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.rockylinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-22) (GCC) ]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgfortran.spec]
+        ignore line: [rename spec lib to liborig]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8116c' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-redhat-linux/8/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_8116c' '-v' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/include' '-pthread' '-I' '/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc91pXOG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8116c /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadbegin.o -L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o -rpath /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o /usr/lib/gcc/x86_64-redhat-linux/8/crtoffloadend.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc91pXOG.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+          arg [-plugin-opt=-pass-through=-lm] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8116c] ==> ignore
+          arg [-L/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
+          arg [CMakeFiles/cmTC_8116c.dir/OpenMPTryFlag.F90.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> ignore
+          arg [-lmpi_usempif08] ==> lib [mpi_usempif08]
+          arg [-lmpi_usempi_ignore_tkr] ==> lib [mpi_usempi_ignore_tkr]
+          arg [-lmpi_mpifh] ==> lib [mpi_mpifh]
+          arg [-lmpi] ==> lib [mpi]
+          arg [-lgfortran] ==> lib [gfortran]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lquadmath] ==> lib [quadmath]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib] ==> [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8] ==> [/usr/lib/gcc/x86_64-redhat-linux/8]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> [/usr/lib]
+        implicit libs: [mpi_usempif08;mpi_usempi_ignore_tkr;mpi_mpifh;mpi;gfortran;m;gomp;gcc_s;gcc;quadmath;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/lib;/usr/lib/gcc/x86_64-redhat-linux/8;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/usr/share/cmake/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/ip-3.3.3-zqcosc4kucplgd7c2lqhyq3pkbtkttzl/lib/cmake/ip/ip-config.cmake:37 (find_dependency)"
+      - "src/gsi/CMakeLists.txt:78 (find_package)"
+    description: "Detecting Fortran OpenMP version"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-nfRG77"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-nfRG77"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/gsi/cmake"
+    buildResult:
+      variable: "OpenMP_SPECTEST_Fortran_"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-nfRG77
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c402/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c402.dir/build.make CMakeFiles/cmTC_5c402.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-nfRG77'
+        Building Fortran object CMakeFiles/cmTC_5c402.dir/OpenMPCheckVersion.F90.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort   -fopenmp -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-nfRG77/OpenMPCheckVersion.F90 -o CMakeFiles/cmTC_5c402.dir/OpenMPCheckVersion.F90.o
+        Linking Fortran executable cmTC_5c402
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c402.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort  -fopenmp CMakeFiles/cmTC_5c402.dir/OpenMPCheckVersion.F90.o -o cmTC_5c402 
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-nfRG77'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1707 (_MPI_try_staged_settings)"
+      - "src/enkf/CMakeLists.txt:56 (find_package)"
+    description: "The MPI test mpiver for Fortran in mode F08_MODULE"
+    directories:
+      source: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-4ErD2g"
+      binary: "/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-4ErD2g"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: ""
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+      CMAKE_MODULE_PATH: "/global/home/users/tinakc/GSIall/src/enkf/cmake"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_mpiver_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-4ErD2g
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2a618/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a618.dir/build.make CMakeFiles/cmTC_2a618.dir/build
+        gmake[1]: Entering directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-4ErD2g'
+        Building Fortran object CMakeFiles/cmTC_2a618.dir/mpiver.f90.o
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort    -c /global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-4ErD2g/mpiver.f90 -o CMakeFiles/cmTC_2a618.dir/mpiver.f90.o
+        Linking Fortran executable cmTC_2a618
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a618.dir/link.txt --verbose=1
+        /global/home/users/tinakc/spack/opt/spack/linux-rocky8-ivybridge/gcc-8.5.0/openmpi-5.0.5-mkcpdqaa4l7rjn6wewbfvs6qrnpbvl26/bin/mpifort CMakeFiles/cmTC_2a618.dir/mpiver.f90.o -o cmTC_2a618 
+        gmake[1]: Leaving directory '/global/home/users/tinakc/GSIall/build/CMakeFiles/CMakeScratch/TryCompile-4ErD2g'
+        
+      exitCode: 0
+...

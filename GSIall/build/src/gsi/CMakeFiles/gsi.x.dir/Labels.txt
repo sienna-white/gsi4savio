@@ -1,0 +1,5 @@
+# Directory labels
+ gsi
+# Source files and their labels
+/global/home/users/tinakc/GSIall/src/gsi/gsimain.f90
+/global/home/users/tinakc/GSIall/src/gsi/gsimod.F90

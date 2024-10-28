@@ -1,0 +1,82 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/kinds.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pkind.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pkind2.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pietc.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pietc_s.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pmat.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pmat4.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pbfil.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pbfil2.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/jp_pbfil3.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_mppstuff.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_domain.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_domain_loc.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_parameter.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_bocos.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_transfer.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_generations.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_interpolate.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_filtering.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_timers.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_entrymod.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_intstate.f90"
+		},
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/mgbf/mg_input.f90"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mgbf"
+		],
+		"name" : "mgbf"
+	}
+}

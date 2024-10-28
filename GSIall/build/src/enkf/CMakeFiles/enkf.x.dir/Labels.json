@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/global/home/users/tinakc/GSIall/src/enkf/enkf_main.f90"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"enkf"
+		],
+		"name" : "enkf.x"
+	}
+}
