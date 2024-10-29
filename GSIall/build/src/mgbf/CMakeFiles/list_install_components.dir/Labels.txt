@@ -1,3 +1,0 @@
-# Directory labels
- mgbf
-# Source files and their labels

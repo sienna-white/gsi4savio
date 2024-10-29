@@ -1,3 +1,0 @@
-# Directory labels
- GSIApp
-# Source files and their labels

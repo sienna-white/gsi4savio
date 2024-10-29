@@ -5,8 +5,10 @@
 #module load spack
 
 #START HERE to install NCEPLIBS which is needed by new version of GSI
+
 #Try this instead to install a local version of spac. 
-#git clone https://github.com/spack/spack
+
+git clone https://github.com/spack/spack
 
 
 #this sources the environment variables spack needs from the local spack folder 
@@ -30,6 +32,8 @@
 ##module load spack
 
 #Install NCEPLIBS libraries first
+
+
 git clone https://github.com/spack/spack
 . spack/share/spack/setup-env.sh # assuming bash, zsh, or dash shell
 
@@ -50,7 +54,6 @@ spack install ncio
 spack install gsi-ncdiag
 spack install wrf-io
 spack install crtm #error no disk space, tried again later and it worked
-
 spack install blas  #not sure if needed
 
 

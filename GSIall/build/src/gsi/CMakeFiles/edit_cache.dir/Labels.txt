@@ -1,3 +1,0 @@
-# Directory labels
- gsi
-# Source files and their labels

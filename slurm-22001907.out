@@ -1,0 +1,118 @@
+[+] /usr (external glibc-2.28-v7imuygrfeuhdllpp75qh2aos2ifus33)
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gcc-runtime-8.5.0-c5hfwurreco4ioilaawgx2nqxfvrp46a
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/nghttp2-1.63.0-m2obhvkny6xclqpm2teotoonzj5jdnh7
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/zlib-ng-2.2.1-pwjnmmmvg3qz6x5q7y3ypzpmpdgrnalw
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/ncurses-6.5-j6icgvynrzpjm5ittb3z4vmwz7sek3du
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gmake-4.4.1-be474evtfsfe3h32is465ak5jripk2ur
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/openssl-3.3.1-ylnnfugxmaa4lubsnb23cf5rfkpgu4gm
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/curl-8.10.1-iokkolnbx6wwr455z3l2x5exd2di4vbi
+==> Installing cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx [9/10]
+==> No binary for cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx found: installing from source
+==> Using cached archive: /global/scratch/users/siennaw/gsi_2024/compiling/spack/var/spack/cache/_source-cache/archive/9f/9f55e1a40508f2f29b7e065fa08c29f82c402fa0402da839fffe64a25755a86d.tar.gz
+==> Applied patch /global/scratch/users/siennaw/gsi_2024/compiling/spack/var/spack/repos/builtin/packages/cmake/mr-9623.patch
+==> cmake: Executing phase: 'bootstrap'
+==> cmake: Executing phase: 'build'
+==> cmake: Executing phase: 'install'
+==> cmake: Successfully installed cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx
+  Stage: 0.91s.  Bootstrap: 1m 57.88s.  Build: 1m 32.21s.  Install: 28.02s.  Post-install: 12.83s.  Total: 4m 12.73s
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx
+==> Installing bufr-12.1.0-cjatmsvx6jsgm4uyv7hvyjauwrxuc3lf [10/10]
+==> No binary for bufr-12.1.0-cjatmsvx6jsgm4uyv7hvyjauwrxuc3lf found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/b5/b5eae61b50d4132b2933b6e6dfc607e5392727cdc4f46ec7a94a19109d91dcf3.tar.gz
+==> Ran patch() for bufr
+==> bufr: Executing phase: 'cmake'
+==> bufr: Executing phase: 'build'
+==> bufr: Executing phase: 'install'
+==> bufr: Successfully installed bufr-12.1.0-cjatmsvx6jsgm4uyv7hvyjauwrxuc3lf
+  Stage: 0.70s.  Cmake: 2.22s.  Build: 2.70s.  Install: 4.72s.  Post-install: 1.09s.  Total: 12.26s
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/bufr-12.1.0-cjatmsvx6jsgm4uyv7hvyjauwrxuc3lf
+[+] /usr (external glibc-2.28-v7imuygrfeuhdllpp75qh2aos2ifus33)
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gcc-runtime-8.5.0-c5hfwurreco4ioilaawgx2nqxfvrp46a
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/zlib-ng-2.2.1-pwjnmmmvg3qz6x5q7y3ypzpmpdgrnalw
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/ncurses-6.5-j6icgvynrzpjm5ittb3z4vmwz7sek3du
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/nghttp2-1.63.0-m2obhvkny6xclqpm2teotoonzj5jdnh7
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gmake-4.4.1-be474evtfsfe3h32is465ak5jripk2ur
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/openssl-3.3.1-ylnnfugxmaa4lubsnb23cf5rfkpgu4gm
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/curl-8.10.1-iokkolnbx6wwr455z3l2x5exd2di4vbi
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx
+==> Installing sp-2.3.3-7hmwcigsd23a55s6c2vlew2oq4g63dap [10/11]
+==> No binary for sp-2.3.3-7hmwcigsd23a55s6c2vlew2oq4g63dap found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/c0/c0d465209e599de3c0193e65671e290e9f422f659f1da928505489a3edeab99f.tar.gz
+==> No patches needed for sp
+==> sp: Executing phase: 'cmake'
+==> sp: Executing phase: 'build'
+==> sp: Executing phase: 'install'
+==> sp: Successfully installed sp-2.3.3-7hmwcigsd23a55s6c2vlew2oq4g63dap
+  Stage: 0.21s.  Cmake: 0.63s.  Build: 2.65s.  Install: 0.33s.  Post-install: 0.39s.  Total: 4.90s
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/sp-2.3.3-7hmwcigsd23a55s6c2vlew2oq4g63dap
+==> Installing ip-3.3.3-4j7autbkxrtb2mjbqum2bpbcedmmscli [11/11]
+==> No binary for ip-3.3.3-4j7autbkxrtb2mjbqum2bpbcedmmscli found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/d5/d5a569ca7c8225a3ade64ef5cd68f3319bcd11f6f86eb3dba901d93842eb3633.tar.gz
+==> No patches needed for ip
+==> ip: Executing phase: 'cmake'
+==> ip: Executing phase: 'build'
+==> ip: Executing phase: 'install'
+==> ip: Successfully installed ip-3.3.3-4j7autbkxrtb2mjbqum2bpbcedmmscli
+  Stage: 2.24s.  Cmake: 1.37s.  Build: 1.98s.  Install: 0.47s.  Post-install: 0.51s.  Total: 7.39s
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/ip-3.3.3-4j7autbkxrtb2mjbqum2bpbcedmmscli
+[+] /usr (external glibc-2.28-v7imuygrfeuhdllpp75qh2aos2ifus33)
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gcc-runtime-8.5.0-c5hfwurreco4ioilaawgx2nqxfvrp46a
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/sp-2.3.3-7hmwcigsd23a55s6c2vlew2oq4g63dap
+[+] /usr (external glibc-2.28-v7imuygrfeuhdllpp75qh2aos2ifus33)
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gcc-runtime-8.5.0-c5hfwurreco4ioilaawgx2nqxfvrp46a
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/ncurses-6.5-j6icgvynrzpjm5ittb3z4vmwz7sek3du
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/nghttp2-1.63.0-m2obhvkny6xclqpm2teotoonzj5jdnh7
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gmake-4.4.1-be474evtfsfe3h32is465ak5jripk2ur
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/zlib-ng-2.2.1-pwjnmmmvg3qz6x5q7y3ypzpmpdgrnalw
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/openssl-3.3.1-ylnnfugxmaa4lubsnb23cf5rfkpgu4gm
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/curl-8.10.1-iokkolnbx6wwr455z3l2x5exd2di4vbi
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx
+==> Installing bacio-2.6.0-xpdgi2dhsgofyznu45yzdvgn3xbe6ghf [10/10]
+==> No binary for bacio-2.6.0-xpdgi2dhsgofyznu45yzdvgn3xbe6ghf found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/03/03fef581e1bd3710fb8d2f2659a6c3e01a0437c1350ba53958d2ff1ffef47bcb.tar.gz
+==> Ran patch() for bacio
+==> bacio: Executing phase: 'cmake'
+==> bacio: Executing phase: 'build'
+==> bacio: Executing phase: 'install'
+==> bacio: Successfully installed bacio-2.6.0-xpdgi2dhsgofyznu45yzdvgn3xbe6ghf
+  Stage: 0.25s.  Cmake: 1.10s.  Build: 0.82s.  Install: 0.36s.  Post-install: 0.39s.  Total: 3.65s
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/bacio-2.6.0-xpdgi2dhsgofyznu45yzdvgn3xbe6ghf
+[+] /usr (external glibc-2.28-v7imuygrfeuhdllpp75qh2aos2ifus33)
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gcc-runtime-8.5.0-c5hfwurreco4ioilaawgx2nqxfvrp46a
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/bacio-2.6.0-xpdgi2dhsgofyznu45yzdvgn3xbe6ghf
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/zlib-ng-2.2.1-pwjnmmmvg3qz6x5q7y3ypzpmpdgrnalw
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gmake-4.4.1-be474evtfsfe3h32is465ak5jripk2ur
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/ncurses-6.5-j6icgvynrzpjm5ittb3z4vmwz7sek3du
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/nghttp2-1.63.0-m2obhvkny6xclqpm2teotoonzj5jdnh7
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/openssl-3.3.1-ylnnfugxmaa4lubsnb23cf5rfkpgu4gm
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/curl-8.10.1-iokkolnbx6wwr455z3l2x5exd2di4vbi
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx
+==> Installing w3emc-2.12.0-6dcpxrk3nrotg555ejsknakiwc6a7g2b [11/11]
+==> No binary for w3emc-2.12.0-6dcpxrk3nrotg555ejsknakiwc6a7g2b found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/77/77c0732541ade1deb381f5a208547ccc36e65efa91c8f7021b299b20a6ae0d27.tar.gz
+==> No patches needed for w3emc
+==> w3emc: Executing phase: 'cmake'
+==> w3emc: Executing phase: 'build'
+==> w3emc: Executing phase: 'install'
+==> w3emc: Successfully installed w3emc-2.12.0-6dcpxrk3nrotg555ejsknakiwc6a7g2b
+  Stage: 0.48s.  Cmake: 1.21s.  Build: 3.33s.  Install: 0.51s.  Post-install: 0.43s.  Total: 6.73s
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/w3emc-2.12.0-6dcpxrk3nrotg555ejsknakiwc6a7g2b
+[+] /usr (external glibc-2.28-v7imuygrfeuhdllpp75qh2aos2ifus33)
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gcc-runtime-8.5.0-c5hfwurreco4ioilaawgx2nqxfvrp46a
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/ncurses-6.5-j6icgvynrzpjm5ittb3z4vmwz7sek3du
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/zlib-ng-2.2.1-pwjnmmmvg3qz6x5q7y3ypzpmpdgrnalw
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/gmake-4.4.1-be474evtfsfe3h32is465ak5jripk2ur
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/nghttp2-1.63.0-m2obhvkny6xclqpm2teotoonzj5jdnh7
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/openssl-3.3.1-ylnnfugxmaa4lubsnb23cf5rfkpgu4gm
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/curl-8.10.1-iokkolnbx6wwr455z3l2x5exd2di4vbi
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/cmake-3.30.5-ledkoujpqytljlsjhagufjuxejnar5jx
+==> Installing sigio-2.3.3-d2wyjwd4aqnaeo7hynwq7fbk5p7mfzoh [10/10]
+==> No binary for sigio-2.3.3-d2wyjwd4aqnaeo7hynwq7fbk5p7mfzoh found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/2b/2b4a04be3be10f222d0ff47f973f65a03b8b5521dcad8e8866f3bfe4e8dfafab.tar.gz
+==> No patches needed for sigio
+==> sigio: Executing phase: 'cmake'
+==> sigio: Executing phase: 'build'
+==> sigio: Executing phase: 'install'
+==> sigio: Successfully installed sigio-2.3.3-d2wyjwd4aqnaeo7hynwq7fbk5p7mfzoh
+  Stage: 0.23s.  Cmake: 0.66s.  Build: 4.08s.  Install: 0.32s.  Post-install: 0.35s.  Total: 6.33s
+[+] /global/scratch/users/siennaw/gsi_2024/compiling/spack/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/sigio-2.3.3-d2wyjwd4aqnaeo7hynwq7fbk5p7mfzoh
