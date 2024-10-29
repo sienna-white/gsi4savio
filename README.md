@@ -2,8 +2,10 @@
 last updated: Oct 28 2024
 
 (1) Install a local version of spack. Clone the spack git directory into a nearby folder:
+
     $ git clone https://github.com/spack/spack
-Note the path of this directory. You will assign it to the varible 
+Note the path of this directory. You will assign it to the variable  
+
     $ path2spack=/global/scratch/users/siennaw/gsi_2024/compiling/spack
 in the next two shell scripts. 
 
