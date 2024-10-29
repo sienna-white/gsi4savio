@@ -1,14 +1,16 @@
-NOTES ON COMPILING GSI 
+# Compiling GSI 
 last updated: Oct 28 2024
 
 (1) Install a local version of spack. Clone the spack git directory into a nearby  
     folder:
-
-        $ git clone https://github.com/spack/spack
-
+```bash
+$ git clone https://github.com/spack/spack
+``` 
     Note the path of this directory. You will assign it to the varible 
 
-        $ path2spack=/global/scratch/users/siennaw/gsi_2024/compiling/spack
+```bash
+$ path2spack=/global/scratch/users/siennaw/gsi_2024/compiling/spack
+```
 
     in the next two shell scripts. 
 
@@ -16,13 +18,13 @@ last updated: Oct 28 2024
     the path2spack mentioned above. 
 
     You can either run the shell script 
-
+```bash
         $ ./1_install_GSI_packages.sh 
-
+```
     or submit to to slurm with 
-
+```bash
         $ sbatch 1_install_GSI_packages.sh
-        
+```
     In my experience this script took maybe ~20ish min to run when I used sbatch.
 
 (3) 
