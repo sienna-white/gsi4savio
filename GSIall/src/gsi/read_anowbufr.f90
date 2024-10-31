@@ -308,14 +308,11 @@ subroutine read_anowbufr(nread,ndata,nodata,gstime,&
            tdiff=(obstime-gstime)*r60inv
 
 
-
            if (l4dvar.or.l4densvar) then
               if (t4dv < zero .or. t4dv > winlen) cycle
            else
-            ! old version 
               if(abs(tdiff) > twindin .or. &
-                    abs(tdiff) > ctwind(ikx))  then
-                    cycle  ! outside time window
+                    abs(tdiff) > ctwind(ikx)) print*,"Please check your obs time, make sure it at your analysis time!!!"  ! outside time window
            endif
 
             !    if(abs(tdiff) > twindin .or.  ! sw change 10/28/24

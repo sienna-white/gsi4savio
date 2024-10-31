@@ -24,6 +24,7 @@ path2spack=/global/scratch/users/siennaw/gsi_2024/compiling/spack
 #spack install ncio
 #spack install gsi-ncdiag
 #spack install wrf-io
-spack install crtm      # error no disk space, tried again later and it worked
+# spack install crtm      # error no disk space, tried again later and it worked
 #spack install blas      # not sure if needed
 #spack install gcc@8.5.0
+spack install nco 
