@@ -74,5 +74,3 @@ spack install wrf-io
 spack install crtm #error no disk space, tried again later and it worked
 
 spack install blas  #not sure if needed
-
-

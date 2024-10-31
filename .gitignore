@@ -1,2 +1,4 @@
 *.x 
+**/.build
+**/build
 *.out

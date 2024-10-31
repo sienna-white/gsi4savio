@@ -197,6 +197,9 @@ subroutine read_obs_check (lexist,filename,jsatid,dtype,minuse,nread)
   end if
   if(trim(dtype) == 'fed' )return
 
+  write(6,*)'dtype is',dtype
+!   dtype='pm2_5' 
+  write(6,*)'filename is',filename
 ! Use routine as usual
 
   if(lexist .and. trim(dtype) /= 'tcp' )then
@@ -499,8 +502,9 @@ subroutine read_obs_check (lexist,filename,jsatid,dtype,minuse,nread)
            endif
            nread = nread + 1
          end do gnssrwndloop
-
+       
        else if(trim(dtype) == 'pm2_5')then
+
           if (oneobtest_chem .and. oneob_type_chem=='pm2_5') then
              lexist=.true.
           else
@@ -892,6 +896,8 @@ subroutine read_obs(ndata,mype)
     read_ears_rec1=0
     read_db_rec1=0
     do i=1,ndat
+
+
        obstype=dtype(i)                   !     obstype  - observation types to process
        amsre= index(obstype,'amsre') /= 0
        ssmis= index(obstype,'ssmis') /= 0
@@ -1012,7 +1018,7 @@ subroutine read_obs(ndata,mype)
        end if
 
        if(nuse)then
-
+          write(6,*)'nuse (line 1021)', obstype
 !     Control parallel read for each ob type (currently just rad obs).  
 !     To remove parallel read comment out line.
           ithin=dthin(i)
@@ -1162,6 +1168,7 @@ subroutine read_obs(ndata,mype)
        else
           if(mype == 0)write(6,*) 'data type ',dsis(i), &
                 'not used in info file -- do not read file ',trim(dfile(i))
+                write(6,*)'dtype is',dtype
        end if
     end do
 
@@ -1691,6 +1698,7 @@ subroutine read_obs(ndata,mype)
                         &infile,obstype,lunout,sis,nobs_sub1(1,i))
                    string='ONEOBSCHEM'
                 else
+                  !  write
                    call read_anowbufr(nread,npuse,nouse,gstime,&
                         &infile,obstype,lunout,twind,sis,nobs_sub1(1,i))
                    string='READ_ANOWBUFR'

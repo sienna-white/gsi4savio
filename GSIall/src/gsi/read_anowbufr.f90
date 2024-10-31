@@ -307,13 +307,18 @@ subroutine read_anowbufr(nread,ndata,nodata,gstime,&
            obstime=real(nmind,r_kind)
            tdiff=(obstime-gstime)*r60inv
 
+
            if (l4dvar.or.l4densvar) then
               if (t4dv < zero .or. t4dv > winlen) cycle
            else
               if(abs(tdiff) > twindin .or. &
-                    abs(tdiff) > ctwind(ikx)) cycle  ! outside time window
+                    abs(tdiff) > ctwind(ikx)) print*,"Please check your obs time, make sure it at your analysis time!!!"  ! outside time window
            endif
 
+            !    if(abs(tdiff) > twindin .or.  ! sw change 10/28/24
+            !         abs(tdiff) > ctwind(ikx))
+            !      print*,"Please check your obs time, make sure it at your analysis time!!! :)"
+            !   endif
 !at a later stage search for site character and elevation 
 !based on sid when reference table available
 !for now assign default sitecharacter and unknown elevation 
