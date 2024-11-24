@@ -79,12 +79,6 @@ cd /global/scratch/users/siennaw/gsi_2024/compiling/WRF
 # make -j 16 > make.out
 
 echo "Done!!" 
-# -j 16 means 16 processors (?) 
-#make  VERBOSE=1 > make.out
-
-#or try to redirect stderr and stdout to the same file for easier debugging:
-#make > hi.txt 2>&1
-# make  VERBOSE=1 > make.out 2>&1
 
 
 

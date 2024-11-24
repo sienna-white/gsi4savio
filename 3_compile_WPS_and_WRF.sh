@@ -44,8 +44,12 @@ export CXX=mpicxx
 export FC=mpifort
 export F77=mpifort
 
+spack install wps ^openmpi
+
+exit 
+
 # export GCC_PATH=${path2spack}/linux-rocky8-ivybridge/gcc-8.5.0
-export NETCDF=${path2spack}/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/netcdf-c-4.9.2-huctf2c7f3iapgt4gjkwc74makybzjy3/
+export NETCDF=${path2spack}/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0/netcdf-fortran-4.6.1-x5tuaapbgkgthp444dyfpz5rylocr6i2
 export GCC_PATH=${path2spack}/opt/spack/linux-rocky8-skylake_avx512/gcc-8.5.0
 
 #try setting some of these in the CMakeLists.txt file
@@ -59,7 +63,7 @@ cd /global/scratch/users/siennaw/gsi_2024/compiling/WPS
 # mkdir build 
 # cd build 
 
-./configure
+./configure --nowrf 
 ./compile
 
 # *********************** RUNNING CMAKE ************************* 
