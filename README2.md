@@ -1,7 +1,7 @@
 # Compiling GSI 
 last updated: Oct 28 2024
 
-1. Install a local version of spack. You need to put this in scratch!!!! Clone the spack git directory into a nearby folder:
+1. Install a local version of spack. You need to put this in scratch if your home directory is low on space!!! Clone the spack git directory into a nearby folder:
 
         $ git clone https://github.com/spack/spack
 Note the path of this directory. You will assign it to the variable  
