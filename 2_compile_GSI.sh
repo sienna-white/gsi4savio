@@ -8,7 +8,7 @@
 #SBATCH --export=ALL
 
 path2spack=/global/scratch/users/siennaw/gsi_2024/compiling/spack
-
+path2GSI=/global/scratch/users/siennaw/gsi_2024/compiling/gsi4savio/GSIall
 # *********************** COMPILE GSI ************************* 
 # steps to compile after the packages have been installed
 ###############################################################
@@ -34,7 +34,6 @@ spack load blas                 #not sure if these are needed too
 spack load netcdf-fortran       #not sure if these are needed too
 spack load netcdf-c             #not sure if these are needed too
 
-
 export CC=mpicc
 export CXX=mpicxx
 export FC=mpifort
@@ -47,7 +46,7 @@ export GCC_PATH=${path2spack}/linux-rocky8-ivybridge/gcc-8.5.0
 #cmake -D CMAKE_PREFIX_PATH=$TINA -D CMAKE_GSI_MODE=Regional -D MPI_Fortran_COMPILER=mpifort ../  > cmake.out
 
 # *********************** SET UP BUILD FOLDER *******************
-cd /global/scratch/users/siennaw/gsi_2024/compiling/gsi4savio/GSIall
+cd $path2GSI
 echo "Deleting build folder if it exists..." 
 rm -r build
 mkdir build 
@@ -64,10 +63,8 @@ echo "Running make..."
 make -j 16 > make.out
 
 echo "Done!!" 
+
 # -j 16 means 16 processors (?) 
 #make  VERBOSE=1 > make.out
 
-#or try to redirect stderr and stdout to the same file for easier debugging:
-#make > hi.txt 2>&1
-# make  VERBOSE=1 > make.out 2>&1
-
+#
