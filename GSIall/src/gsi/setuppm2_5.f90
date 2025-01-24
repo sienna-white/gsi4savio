@@ -708,7 +708,7 @@ subroutine setuppm2_5(obsLL,odiagLL,lunin,mype,nreal,nobs,isis,is,conv_diagsave)
                 mype,nfldsig)
            call tintrp2a11(ges_tv(:,:,1,nfldsig),tv_ges,dlat,dlon,dtime,hrdifsig,&
                 mype,nfldsig)
-           conc=conc/(ps_ges*r1000/(rd*tv_ges))
+           !conc=conc/(ps_ges*r1000/(rd*tv_ges)) !SIENNA SW CHANGE 1/24/2024
         endif
 !
         if (laeroana_fv3smoke) then

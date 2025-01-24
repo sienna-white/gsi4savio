@@ -337,7 +337,7 @@ subroutine read_anowbufr(nread,ndata,nodata,gstime,&
 
            
            conc=conc*obs2model_anowbufr_pm()
-
+           write(6,*)'READING BUFR VALUE=',conc
            error_1=cermax(ikx)+cermin(ikx)*percent*conc
            error_2=tunable_error*error_1*&
                  sqrt(region_dx(nint(dlat),nint(dlon))/&
